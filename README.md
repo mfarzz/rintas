@@ -11,7 +11,7 @@ Rintas membagikan file langsung dari laptop melalui Cloudflare Tunnel. File tida
 
 Dashboard dan submenu **Tautan aktif** di tray menampilkan tautan yang masih berlaku pada sesi server saat ini. Pilih tautan untuk menyalinnya lagi, atau cabut satu tautan dari dashboard. Di jendela **Pengaturan**, tombol **Panduan domain** menjelaskan cara menghubungkan subdomain melalui Cloudflare Tunnel.
 
-Tautan baru memakai kunci acak 16 karakter, misalnya `https://domain-anda.example/AbCdEfGhIjKlMnOp`. Masa berlaku bawaan 24 jam; ubah melalui **Pengaturan domain dan masa berlaku** di menu tray (1â€“10080 menit). Saat masa berlaku habis, halaman dan unduhan tidak dapat dibuka lagi. Tautan juga berhenti bila Rintas dimatikan atau pengaturan disimpan ulang.
+Tautan baru memakai kunci acak 16 karakter, misalnya `https://domain-anda.example/AbCdEfGhIjKlMnOp`. Masa berlaku bawaan 24 jam; ubah melalui **Pengaturan domain dan masa berlaku** di menu tray (1–10080 menit). Saat masa berlaku habis, halaman dan unduhan tidak dapat dibuka lagi. Tautan juga berhenti bila Rintas dimatikan atau pengaturan disimpan ulang.
 
 Laptop dan koneksi internet harus tetap menyala selama penerima mengunduh. Kecepatan unduh mengikuti kecepatan upload internet laptop. Siapa pun yang memperoleh tautan lengkap dapat mengunduh file sampai tautan dicabut.
 
