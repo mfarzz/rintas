@@ -1,0 +1,45 @@
+# Paket dan program hasil build
+/Rintas.exe
+/FileShareSetup.exe
+/Rintas_*.msix
+/cloudflared.exe
+/*.obj
+/*.exp
+/*.lib
+/*.dll
+
+# Aset yang dibuat ulang oleh assets/build-icons.py
+/assets/generated/
+
+# Hasil compiler dan folder uji
+/msix/stage/
+/msix/*.exe
+/msix/*.dll
+/msix/*.obj
+/msix/*.lib
+/msix/*.exp
+/installer/stage/
+/installer/test-install/
+/installer/payload.zip
+
+# Sertifikat, kredensial, dan konfigurasi lokal
+*.cer
+*.pfx
+*.pem
+*.key
+*.token
+.env
+.env.*
+config.local.json
+.cloudflared/
+
+# Berkas sementara editor dan Python
+__pycache__/
+*.pyc
+.vscode/
+.idea/
+.vs/
+node_modules/
+*.user
+*.tmp
+*.log

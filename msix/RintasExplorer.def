@@ -1,0 +1,4 @@
+LIBRARY RintasExplorer
+EXPORTS
+    DllCanUnloadNow PRIVATE
+    DllGetClassObject PRIVATE
