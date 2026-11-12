@@ -1,0 +1,16 @@
+{
+  "name": "rintas-promo",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "still": "remotion still src/index.jsx RintasPromo out/preview.png --frame=330 --browser-executable=\"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\"",
+    "render": "remotion render src/index.jsx RintasPromo out/rintas-promo-draft.mp4 --browser-executable=\"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\"",
+    "render:voice": "remotion render src/index.jsx RintasPromo out/rintas-promo-voice.mp4 --props=props/with-voice.json --browser-executable=\"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\""
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.332",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "remotion": "^4.0.332"
+  }
+}
